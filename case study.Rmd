@@ -126,7 +126,7 @@ nyc_airbnb %>%
   addTiles() %>% 
   addProviderTiles(providers$CartoDB.Positron) %>% 
   addCircleMarkers(~lat,~long,
-                   color = ~pal(stars), 
+                   #color = ~pal(stars), 
                    radius = 1)
  
   
